@@ -1,0 +1,21 @@
+{
+  "name": "hotkey stylish",
+  "version": "1.0.0",
+  "description": "Change hotkeys with predefined rules",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/jasonleakey/hotkey-stylish",
+  "keywords": [
+    "hotkey",
+    "linux",
+    "style",
+    "shortcuts"
+  ],
+  "author": "Jason Huang",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "electron": "^1.8.4"
+  }
+}
