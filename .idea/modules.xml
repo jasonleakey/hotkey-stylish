@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/hotkey-stylish.iml" filepath="$PROJECT_DIR$/.idea/hotkey-stylish.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/keyboard stylish.iml" filepath="$PROJECT_DIR$/.idea/keyboard stylish.iml" />
     </modules>
   </component>

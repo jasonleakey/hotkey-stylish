@@ -1,10 +1,25 @@
 {
-  "name": "hotkey stylish",
+  "name": "hotkey-stylish",
   "version": "1.0.0",
   "description": "Change hotkeys with predefined rules",
+  "homepage": "https://github.com/jasonleakey/hotkey-stylish",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "build",
+    "clean": "rm -rf dist"
+  },
+  "build": {
+    "appId": "biz.squashme.hotkey-stylish",
+    "linux": {
+      "target": "snap",
+      "icon": "512x512.png",
+      "category": "Utility;Settings;System"
+    },
+    "snap": {
+      "confinement": "devmode",
+      "summary": "Change hotkeys"
+    }
   },
   "repository": "https://github.com/jasonleakey/hotkey-stylish",
   "keywords": [
@@ -16,6 +31,7 @@
   "author": "Jason Huang",
   "license": "Apache 2.0",
   "devDependencies": {
-    "electron": "^1.8.4"
+    "electron": "^1.8.4",
+    "electron-builder": "^20.8.1"
   }
 }
